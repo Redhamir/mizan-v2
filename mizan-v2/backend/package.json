@@ -1,0 +1,1 @@
+{\n  "name": "mizan-v2-backend",\n  "version": "1.0.0",\n  "main": "src/index.js",\n  "scripts": {\n    "start": "node src/index.js",\n    "test": "echo 'No tests yet'"\n  },\n  "dependencies": {\n    "express": "^4.17.1"\n  }\n}

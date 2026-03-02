@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\nconst port = 3000;\n\napp.get('/', (req, res) => {\n  res.send('Hello from MIZAN v2 backend!');\n});\n\napp.listen(port, () => {\n  console.log(`Backend is running at http://localhost:${port}`);\n});\n
